@@ -1,0 +1,32 @@
+{
+  "name": "gemstone-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-modules index.js",
+    "start": "node --experimental-modules index.js"
+  },
+  "author": "PeeBird",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "data-uri-to-buffer": "^4.0.0",
+    "discord.js": "^13.6.0",
+    "express": "^4.17.1",
+    "fetch-blob": "^3.1.3",
+    "formdata-polyfill": "^4.0.10",
+    "glob": "^7.2.0",
+    "index.js": "^0.0.3",
+    "mongoose": "^6.0.12",
+    "node-fetch": "^3.2.0",
+    "npm": "^8.1.3",
+    "promisify": "^0.0.3",
+    "sqlite3": "^5.0.2",
+    "yarn": "^1.22.17"
+  },
+  "devDependencies": {
+    "node": "^16.6.0"
+  },
+  "keywords": [],
+  "description": ""
+}
